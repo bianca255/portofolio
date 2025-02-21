@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAGUMA Bianca - CV</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">HAGUMA Bianca</div>
+        <ul class="nav-menu">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+
+    <div class="profile" id="profile">
+        <h1>HAGUMA Iradukunda Ange Bianca</h1>
+        <ul>
+            <li>Kigali, Rwanda</li>
+            <li>Email: hagumabianca@gmail.com</li>
+        </ul>
+    </div>
+
+    <div class="objective" id="objective">
+        <h1>Career Objective</h1>
+        <p>A dedicated and detail-oriented professional with experience in administrative support and a strong passion for software development. Currently working as a secretary at Manzi Finance. Highly skilled in organization, leadership, and communication, with a strong interest in empowering women through skillful training and transformative education in leadership.</p>
+    </div>
+
+    <div class="section-container">
+        <div class="card" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Software Engineering, African Leadership University, Rwanda</li>
+                <li>Highschool Diploma, Maranyundo Girls School, Nyamata, Rwanda</li>
+                <li>ALX Africa, AI Career Essentials</li>
+            </ul>
+        </div>
+
+        <div class="card" id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><h3>Sales Representative, Mikalla Hair & Body Essentials, 2023-Present</h3></li>
+                <li><h3>Secretary, Manzi Finance, 2020-2023</h3></li>
+            </ul>
+        </div>
+
+        <div class="card" id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Django</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </div>
+
+        <div class="card" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Kinyarwanda (Fluent)</li>
+                <li>French (Fluent)</li>
+                <li>English (Fluent)</li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button class="btn" onclick="submitForm()">Send Message</button>
+        </div>
+    </section>
+</body>
+</html>
